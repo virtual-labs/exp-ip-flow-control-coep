@@ -28,6 +28,6 @@ jobs:
     - uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.ORG_OWNER_GITHUB_TOKEN }}
-        force: true
+        force: false
         branch: gh-pages
  # Reference : https://github.com/marketplace/actions/github-push
