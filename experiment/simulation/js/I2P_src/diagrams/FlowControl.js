@@ -23,7 +23,7 @@ var width = $(window).width();
 	//y = 160;
 	
 	x = -10;
-	y = 200;
+	y = 0;
 
 	
 	var Ft_tank = FT_tank(x,(y-30));	
