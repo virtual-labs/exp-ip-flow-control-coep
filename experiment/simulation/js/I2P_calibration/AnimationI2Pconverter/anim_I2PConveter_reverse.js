@@ -15,12 +15,18 @@ var width = $(window).width();
   {
       paper = new Raphael(document.getElementById('anim_canvas_reverse'), '100%', 600);
 	paper.setViewBox(0,0,w,h,true);
-	paper.setSize('100%', 700);
+	paper.setSize('100%', 600);
   }
     //x = 310;
 	//y = 160;
+	if ($(window).width() <= 1368) {
 	x = 50;
+	y = 40;
+  }else
+  {
+ x = 50;
 	y = 240;
+  }
 	a = 0;
 	
 	var IPNozzel = Nozzelanim (x, y,a,OutputValue);
