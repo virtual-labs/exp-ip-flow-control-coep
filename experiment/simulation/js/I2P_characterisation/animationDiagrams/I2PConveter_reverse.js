@@ -14,7 +14,7 @@ var width = $(window).width();
   {
       paper = new Raphael(document.getElementById('canvas'), '100%', 700);
 	paper.setViewBox(0,0,w,h,true);
-	paper.setSize('100%', 600);
+	paper.setSize('100%', 700);
   }
 	
     //x = 310;
@@ -87,7 +87,7 @@ function plusNozzel_r(x,y,a)
 }
 function minusNozzel_r(x,y,a)
 {
-	console.log("a="+a);
+//	console.log("a="+a);
 	x = x + a;
 	y = y + a;
 	
